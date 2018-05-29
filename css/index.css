@@ -27,7 +27,7 @@ h1{
 
 h2{
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .mainConteneur{
@@ -46,12 +46,9 @@ h2{
 }
 
 .mainConteneur div p{
-  width: 300px;
+  padding: 4%;
+  width: 180px;
   text-align: center;
-}
-
-.mainConteneur div img{
-  width: 300px;
 }
 
 .footerConteneur{
@@ -59,12 +56,26 @@ h2{
   justify-content: flex-end;
 }
 
+.hoverText:hover{
+  background-color: teal;
+  color: white;
+}
+
 #img1{
-  margin-left: 280px;
+  margin-left: 390px;
+}
+
+
+#img1:hover{
+  transform:scale3d(1.5,1.5,1.0);
 }
 
 #img2{
-  margin-right: 280px;
+  margin-right: 300px;
+}
+
+#img2:hover{
+  transform:scale3d(1.5,1.5,1.0);
 }
 
 #copyright{
